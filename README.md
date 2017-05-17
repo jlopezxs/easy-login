@@ -2,7 +2,7 @@
 
 > Social Login for you expressjs apps in the easiest way
 
-Allows login to facebook, github, google, instagram, linkedin, pinterest, steam and twitter.
+Allows login to *Facebook*, *Github*, *Google*, *Instagram*, *Linkedin*, *Pinterest*, *Steam* and *Twitter*.
 
 ## Requirements and Use
 
@@ -36,7 +36,9 @@ easyLogin({
 ```
 
 The package easy-login automatically generates two routes to have social login in your application:
+
 `/auth/facebook`
+
 `/auth/facebook/callback`
 
 For this you need pass to easy login an instance of your express application and a user model like that:
@@ -50,20 +52,20 @@ const userSchema = new mongoose.Schema({
 	name: { type: String, index: true },
 	email: { type: String, unique: true, index: true },
 	password: { type: String },
-  facebook: { type: String },
-  twitter: { type: String },
-  google: { type: String },
-  github: { type: String },
-  instagram: { type: String },
-  linkedin: { type: String },
-  steam: { type: String },
-  profile: {
-    name: { type: String },
-    gender: { type: String },
-    location: { type: String },
-    website: { type: String },
-    picture: { type: String }
-  }
+	facebook: { type: String },
+	twitter: { type: String },
+	google: { type: String },
+	github: { type: String },
+	instagram: { type: String },
+	linkedin: { type: String },
+	steam: { type: String },
+	profile: {
+	  name: { type: String },
+	  gender: { type: String },
+	  location: { type: String },
+	  website: { type: String },
+	  picture: { type: String }
+	}
 });
 
 /**
