@@ -17,7 +17,6 @@
     "passpor"
   ],
   "scripts": {
-    "lint": "eslint src/**/*.js",
     "build": "rm -rf lib && babel src -d lib --source-maps",
     "prerelease": "npm run build",
     "release": "npm version -m \"New version: %s\"",
@@ -27,10 +26,7 @@
   "devDependencies": {
     "babel-cli": "^6.10.1",
     "babel-preset-env": "^1.4.0",
-    "babel-register": "^6.9.0",
-    "eslint": "^2.13.1",
-    "eslint-config-airbnb-base": "^3.0.1",
-    "eslint-plugin-import": "^1.9.2"
+    "babel-register": "^6.9.0"
   },
   "repository": {
     "type": "git",
