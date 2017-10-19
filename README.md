@@ -1,5 +1,7 @@
 ## easy-login
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jlopezxs/easy-login.svg)](https://greenkeeper.io/)
+
 > Social Login for you expressjs apps in the easiest way
 
 Allows login to *Facebook*, *Github*, *Google*, *Instagram*, *Linkedin*, *Pinterest*, *Steam* and *Twitter*.
